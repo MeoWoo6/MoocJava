@@ -1,0 +1,14 @@
+package hello;
+
+import java.util.Scanner;
+
+public class Week402 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x;
+		Scanner in = new Scanner(System.in);
+
+	}
+
+}

@@ -1,0 +1,54 @@
+package hello;
+
+import java.util.Scanner;
+
+public class Week501 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[][] poly = new int[2][100];
+		int power;
+		int coef;
+		Scanner in = new Scanner(System.in);
+		power = in.nextInt();
+		coef = in.nextInt();
+		boolean first = true;
+		boolean second = false;
+		while(first)
+		{
+			poly[0][power] = coef;
+			if(power==0)
+			{
+				first = false;
+				second = true;
+				break;
+			}
+			power = in.nextInt();
+			coef = in.nextInt();
+				
+		}
+		while(second)
+		{
+			poly[1][power] = coef;
+			if(power==0)
+			{
+				second = false;
+				break;
+			}
+			power = in.nextInt();
+			coef = in.nextInt();
+			
+		}
+		
+//		for (int i=0; i<poly.length; i++)
+//		{
+//			for(int j=0; j<poly[i].length; j++)
+//			{
+//				
+//			}
+//		}
+		System.out.println();
+
+	}
+
+}

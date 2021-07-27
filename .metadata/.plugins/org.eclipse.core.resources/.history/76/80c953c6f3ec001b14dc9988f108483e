@@ -1,0 +1,43 @@
+package hello;
+
+import java.util.Scanner;
+
+public class Week401 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int count =1;
+		int n;
+		int m;
+		int x=3;
+		Scanner in = new Scanner(System.in);
+		n = in.nextInt();
+		m = in.nextInt();
+		while(count<n)
+		{
+			for(int i=2; i<x; i++)
+			{
+				if(x%i==0)
+				{
+					break;
+				}
+				count +=1;
+			}
+			x += 1;
+		}
+		while(count>=n && count<m)
+		{
+			for(int i=2; i<x; i++)
+			{
+				if(x%i==0)
+				{
+					break;
+				}
+				count +=1;
+			}
+			x += 1;
+		}
+		
+	}
+
+}
