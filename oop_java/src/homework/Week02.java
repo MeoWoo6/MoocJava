@@ -1,4 +1,4 @@
-package Homework;
+package homework;
 class Display
 {
 	private int value = 0;

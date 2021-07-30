@@ -1,0 +1,2 @@
+module oop_java {
+}

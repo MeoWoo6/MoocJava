@@ -1,4 +1,4 @@
-package Homework;
+package homework;
 import java.util.Scanner;
 
 class Fraction
