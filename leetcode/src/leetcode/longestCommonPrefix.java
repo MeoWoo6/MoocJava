@@ -1,7 +1,7 @@
 package leetcode;
 
 public class longestCommonPrefix {
-	
+	//LCP Startwith() with find min
 	public static String LCP(String[] strs) {
 		if (strs == null || strs.length == 0) {
             return "";
@@ -28,7 +28,7 @@ public class longestCommonPrefix {
 
     }
 	
-	
+	//LCP Startwith() without find min
 	public static String LCP2(String[] strs)
 	{
 		if(strs == null || strs.length == 0)
@@ -51,6 +51,8 @@ public class longestCommonPrefix {
 		
 	}
 	
+	//官方题解 纵向比较 charAt() 
+	//复制粘贴
 	public static String LCP3(String[] strs)
 	{
 		if (strs == null || strs.length == 0) {
@@ -68,6 +70,7 @@ public class longestCommonPrefix {
         }
         return strs[0];
 	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String[] strs= {"flower","flow","flight"};
