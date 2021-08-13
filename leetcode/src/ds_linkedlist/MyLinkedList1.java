@@ -1,4 +1,8 @@
-package t0707_mylinkedlist;
+//Leetbook 设计链表
+//https://leetcode-cn.com/leetbook/read/linked-list/jy291/
+//https://leetcode-cn.com/problems/design-linked-list/
+
+package ds_linkedlist;
 import java.util.Arrays;
 
 // 单链表实现

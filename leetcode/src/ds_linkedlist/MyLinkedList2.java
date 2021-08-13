@@ -1,10 +1,10 @@
-package t0707_mylinkedlist;
+package ds_linkedlist;
 
 // 单链表实现
 // 在1的基础上 设置伪头部节点 在处理delete上保持一致。
 // 这样，真实的index-th的值保存在index-th的next node中
 public class MyLinkedList2 {
-	private Node head;
+	Node head;
 	private int size;
 //	初始化单链表 
 	public MyLinkedList2() {
@@ -86,6 +86,8 @@ public class MyLinkedList2 {
     public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		MyLinkedList2 linkedList = new MyLinkedList2();
+		linkedList.addAtTail(1);
+		System.out.print(linkedList.get(0));
 
 	}
 	

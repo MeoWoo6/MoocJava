@@ -1,4 +1,4 @@
-package t0707_mylinkedlist;
+package ds_linkedlist;
 
 import java.util.Arrays;
 
